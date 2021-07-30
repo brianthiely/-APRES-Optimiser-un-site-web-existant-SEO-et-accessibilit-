@@ -825,7 +825,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img-seo/creation-graphique.png");
 }
 
 
@@ -849,12 +849,6 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
     }
 }
 
