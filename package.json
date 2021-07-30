@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "projet_4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "purgecss --css bootstrap.css --content index.html --out dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianthiely/BrianThiely_4_13072021.git"
+    "url": "git+https://github.com/brianthiely/BrianThiely_4_13072021-End.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brianthiely/BrianThiely_4_13072021/issues"
+    "url": "https://github.com/brianthiely/BrianThiely_4_13072021-End/issues"
   },
-  "homepage": "https://github.com/brianthiely/BrianThiely_4_13072021#readme"
+  "homepage": "https://github.com/brianthiely/BrianThiely_4_13072021-End#readme"
 }
