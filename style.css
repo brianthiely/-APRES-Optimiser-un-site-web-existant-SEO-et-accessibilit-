@@ -769,7 +769,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BA574A;
 }
 
 .tc-white {
@@ -777,11 +777,12 @@ h4 {
 }
 
 .tc-orange {
-    color:#F3976C!important;
+    color:#BA574A!important;
 }
 
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BA574A;
     color: #FFFFFF!important;
 }
 
