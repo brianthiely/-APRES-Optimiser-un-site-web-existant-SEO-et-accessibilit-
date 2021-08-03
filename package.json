@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "purge": "purgecss --css ./style.css css/bootstrap.css css/et-line.css css/font-awesome.css --content src/index.html src/contacte_web_designer.html --output purge/"
+    "purge": "purgecss --css style.css --content /index.html /contacte_web_designer.html --output purge/"
   },
   "repository": {
     "type": "git",
