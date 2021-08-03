@@ -44,17 +44,34 @@
               data-toggle="collapse"
               data-target=".navbar-1"
             >
-              <span class="sr-only">Toggle navigation</span
-              ><span class="icon-bar"></span><span class="icon-bar"></span
-              ><span class="icon-bar"></span>
+              <span aria-label="Ouvir le menu" class="sr-only"
+                >Toggle navigation</span
+              >
+              <span class="icon-bar"></span><span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
             <ul class="site-navigation nav navbar-nav">
-              <li><a href="index.html">Accueil</a></li>
-              <li><a href="#bloc-4-portfolio">Nos réalisations</a></li>
               <li>
-                <a class="tc-orange" href="contacte_web_designer.html"
+                <a
+                  aria-labelledby="Ce rendre à l'acceuil du site"
+                  href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a
+                  aria-labelledby="Voir les réalisations de la chouette agence"
+                  href="#bloc-4-portfolio"
+                  >Nos réalisations</a
+                >
+              </li>
+              <li>
+                <a
+                  aria-labelledby="Contactez un Web Designer"
+                  class="tc-orange"
+                  href="contacte_web_designer.html"
                   ><strong>Contacter un Web designer</strong></a
                 >
               </li>
@@ -83,16 +100,15 @@
                   <strong>conception graphique</strong> de site web
                 </p>
                 <div class="text-center">
-                  <a
+                  <button
                     href="#bloc-4-portfolio"
                     class="
-                      btn btn-lg btn-clean btn-rd
+                      btn btn-d btn-d:focus btn-lg btn-clean btn-rd
                       cta-hero
-                      btn-atomic-tangerine
-                    "
+                      btn-atomic-tangerine"
                     id="cta-hero"
-                    >Découvrir nos projets</a
-                  >
+                    >Découvrir nos projets
+                  </button>
                 </div>
               </div>
             </div>

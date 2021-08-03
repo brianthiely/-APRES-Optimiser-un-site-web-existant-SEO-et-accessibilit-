@@ -311,6 +311,10 @@ a:hover {
   .nav > li .dropdown-menu a:hover {
     color: #484848;
   }
+.nav > li a:hover,
+.nav > li a:focus {
+    text-decoration: underline;
+}
   .nav-invert .site-navigation {
     left: 0;
     right: 0;
@@ -641,6 +645,7 @@ h4 {
   font-weight: 900;
   text-decoration: underline !important;
 }
+
 .bgc-white {
   background-color: #fff;
 }
